@@ -1,0 +1,574 @@
+     .box{
+     width: 110px;
+     height:500px;
+         margin-top: 35%;
+     background-color: #e5372c;
+     padding-top:20px ;
+         margin-left: 5%;
+     }
+     @font-face {
+         font-family:"Iranian Sans";
+         src: url(../font/iransans/iransans/IRANSansWeb.ttf);
+
+     }
+
+     .row-responsvie{
+         display: none!important;
+     }
+.box1-responsive{
+    width: 100px;
+height: 500px;
+    background-color: #e51c23;
+    padding-top:20px ;
+    margin-left: 15%;
+
+}
+.box-responsive{
+    width: 200px;
+    height: 320px;
+    border: solid 1px #8b6125;
+    background: white;
+    position:relative;
+    z-index: 7;
+    margin-left: 50%;
+
+    margin-top: 40px!important;
+
+}
+
+     .box1{
+         width: 300px;
+         height: 420px;
+         border: solid 1px #8b6125;
+         background: white;
+         position:relative;
+         z-index: 7;
+         margin-left: 60%;
+
+         margin-top: 20px;
+
+         }
+
+     .box12{
+         margin-right: 5%;
+         width: 100px;
+         height: 400px;
+         background-color:#e5372c;
+         padding-top:20px ;
+         margin-top:45%;
+padding-right:30px ;
+         position: relative;
+
+     }
+     header{
+         background: url("../img/Layer 18.png")center center ;
+         width: 100%;
+         height: 90%;
+
+     }
+     .img-back{
+height: 100%;
+         background:url("../img/مثلث-0۱.png");
+     }
+p.title-responsive{
+    text-align: right;
+    font-family:"Iranian Sans";
+}
+     p.title2-responsive{
+         text-align: right;
+         font-family:"Iranian Sans";
+     }
+p.title3-responsive{
+    text-align: right;
+    font-family:"Iranian Sans";
+}
+     .box11{
+         width: 200px;
+         height: 300px;
+         border: solid 1px #8b6125;
+         background: white;
+         position:absolute;
+         z-index: 10;
+
+         right: 50px;
+
+         margin-top: 20px;
+
+     }
+     .box-responsive-2{
+         margin-right: 5%;
+         width: 100px;
+         height: 400px;
+         background-color:#e5372c;
+         padding-top:20px ;
+         margin-top:20%;
+         padding-right:30px ;
+         position: relative;
+
+     }
+     .title-responsive-2{
+         width: 200px;
+         height: 300px;
+         border: solid 1px #8b6125;
+         background: white;
+         position:absolute;
+         z-index: 10;
+
+         right: 50px;
+
+         margin-top: 20px;
+
+     }
+
+p.title1{
+    text-align: right;
+     font-family:"Iranian Sans";
+    padding: 10%;
+ }
+     h5.title2{
+
+        text-align: right;
+         direction: rtl;
+         font-weight: bold;
+         padding: 5%;
+         font-family:"Iranian Sans";
+     }
+     p.title3{
+         text-align: right;
+         direction: rtl;
+         font-weight: bold;
+         padding: 5%;
+         font-family:"Iranian Sans";
+     }
+     ul li{
+         text-align: right;
+         font-family:"Iranian Sans";
+         direction: rtl;
+         padding-right:10% ;
+         list-style: none;
+     }
+      .ul li{
+         text-align:left;
+         font-family:"Iranian Sans";
+          list-style: none;
+
+     }
+      .img-center {
+    display:flex;
+width: 100%;
+height: 20vh;
+align-items: center;
+          justify-content: center;
+      }
+.sub-img{
+    text-align:center;
+    font-family:"Iranian Sans";
+    direction: rtl;
+
+}
+     .item{
+         width: 100%; display: flex ; justify-content:center;
+grid-gap: 20px;
+     }
+.item img{
+    width:200px;
+    height:200px;
+    margin: 10px;
+
+}
+
+     footer{
+         background: url('../img/Layer 18.png');
+         width:100%;
+         height: 90%;
+
+         position: relative;
+     }
+
+     .sub-footer {
+         text-align: right;
+         font-family: "Iranian Sans";
+         direction: rtl;
+         color: white;
+
+     }
+.img-model{
+margin-bottom: -7%;
+
+     }
+     .card1{
+         border: 1px solid #e5372c;
+width: 100%;         display: flex;
+         justify-content: center;
+     }
+     .card-text{
+         font-family:"Iranian Sans";
+         text-align: right;
+         direction: rtl;
+         padding: 2px;
+
+     }
+
+
+
+
+     .card{
+         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+     }
+     .card-title{
+         width: 100%;
+         padding:10px 0;
+         display: flex;
+justify-content:flex-start;
+         direction: rtl;
+         font-family: "Iranian Sans";
+     }
+     .btn-outline-success{
+
+         direction: rtl;
+         font-family: "Iranian Sans";
+         margin-bottom: 10px!important;
+     }
+#demo{
+    display: block!important;
+
+
+}
+#demo1{
+    display: none!important;
+}
+
+#demo2{
+    display: block!important;
+}
+
+#demo3{
+    display: none!important;
+}
+     @media  only screen and (max-width: 800px) {
+
+
+     }
+
+     @media  only screen and (min-width: 0px) and (max-width: 327px) {
+.box{
+    display: none;
+
+}
+         .row-responsvie{
+             display: block!important;
+         }
+         .box12{
+             display: none;
+
+         }
+
+         .row1{
+     margin-left: 4%;
+         }
+
+         #demo{
+             display:none!important;
+
+
+         }
+         #demo1{
+             display:block!important;
+         }
+
+         #demo2{
+             display: none!important;
+         }
+
+         #demo3{
+             display:block!important;
+         }
+
+.imger{
+    width: 200px;
+    height: auto;
+}
+
+         #row1{
+        margin-left: 2px!important;
+
+         }
+     }
+     @media  only screen and (min-width: 327px) and (max-width: 360px) {
+
+         #demo {
+             display: none !important;
+
+         }
+         .box{
+             display: none;
+
+         }
+         .box12{
+             display: none;
+
+         }
+
+         .row-responsvie{
+             display: block!important;
+         }
+
+         #demo1 {
+             display: block !important;
+         }
+
+         #demo2 {
+             display: none !important;
+         }
+
+         #demo3 {
+             display: block !important;
+         }
+         .row1{
+             margin-top: 10%;
+             margin-left:12%!important;
+         }
+     }
+         @media  only screen and (min-width: 360px) and (max-width: 414px) {
+
+             #demo {
+                 display: none !important;
+
+             }
+             .box{
+                 display: none;
+
+             }
+             .box12{
+                 display: none;
+
+             }
+             .row-responsvie{
+                 display: block!important;
+             }
+
+             #demo1 {
+                 display: block !important;
+             }
+
+             #demo2 {
+                 display: none !important;
+             }
+
+             #demo3 {
+                 display: block !important;
+             }
+
+         }
+
+
+             @media  only screen and (min-width: 414px) and (max-width: 729px) {
+                 .row-responsvie{
+                     display: block!important;
+                 }
+                 .box{
+                     display: none;
+
+                 }
+                 .box12{
+                     display: none;
+
+                 }
+
+             }
+
+     @media  only screen  and (min-width: 980px) and (max-width:1366px) {
+         .row-responsvie{
+             display: none;
+         }
+
+     }
+     @media only screen  and (max-width: 920px) and (min-width:300px ) {
+
+     }
+
+     @media only screen  and (min-width:730px)and (max-width: 920px){
+         #demo{
+             display: block;
+         }
+         #demo2{
+             display:block;
+         }
+         #demo1{
+             display: none;
+         }
+         #demo3{
+             display: none;
+         }
+         .box1 {
+             width: 300px;
+             height: 320px;
+             border: solid 1px #8b6125;
+             background: white;
+             position: relative;
+             z-index: 7;
+             margin-left: 60%;
+             margin-top: 20px;
+         }
+         p.title3 {
+             text-align: right;
+             direction: rtl;
+             font-weight: bold;
+             padding: 5%;
+             font-family: "Iranian Sans";
+             font-size: 12px;
+         }
+         h5.title2 {
+             text-align: right;
+             direction: rtl;
+             font-weight: bold;
+             padding: 5%;
+             font-size: 12px;
+
+         }
+
+         .box12 {
+             margin-right: 5%;
+             width: 100px;
+             height:300px!important;
+             background-color: #e5372c;
+             padding-top: 20px;
+             margin-top: 100%;
+             padding-right: 30px;
+             position: relative;
+         }
+         .box11 {
+             width: 200px;
+             height: 200px;
+             border: solid 1px #8b6125;
+             background: white;
+             position: absolute;
+             z-index: 10;
+             right: 50px;
+             margin-top: 20px;
+         }
+         body {
+             font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+             font-size: 12px;
+             font-weight: 400;
+             line-height: 1.5;
+             color: #212529;
+         }
+         .box {
+             width: 110px;
+             height: 400px;
+             margin-top:100%;
+             background-color: #e5372c;
+             padding-top: 20px;
+             margin-left: 5%;
+
+
+         }
+         .box12 {
+             margin-right: 5%;
+             width: 100px;
+             height: 400px;
+             background-color: #e5372c;
+             padding-top: 20px;
+             margin-top: 100%;
+             padding-right: 30px;
+             position: relative;
+         }
+     }
+
+.imger {
+
+    background: url(../img/pet.png);
+    /* Full height */
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height:auto;
+    position: relative;
+}
+.style-all1{
+    display: flex;justify-content: center;width: 60%;
+    margin-top: -70%;
+}
+     .style-all2{
+         display: flex;justify-content: right;width: 100%
+     }
+     /********************************************
+      Additional styles for the explanation boxes
+     *********************************************/
+
+.card{
+    margin-bottom: 10px;
+}
+
+
+     .card-btuton{
+display: flex;
+         justify-content:center;
+         width: 100%;
+     }
+      .carousel-control-next-icon{
+         background-color: #491217;
+
+      }
+      .carousel-control-prev-icon{
+          background-color: #491217;
+      }
+      .cap{
+          width: 60%;
+          height: 15%;
+          background-color: #e51c23;
+          margin-left: 5%;
+          margin-top: -15%;
+
+
+      }
+      .title1-cap{
+          text-align:center;
+          position: relative;
+          top: 7px;
+          color: white;
+          font-family: 'Iranian Sans';
+      }
+     .body-cap{
+         background-color: #e51c23;
+         padding: 1px;
+         z-index: 10;
+         position: relative;
+         top: -17%;
+         margin-left: 10px;
+         width: 92%;
+     }
+     .title1-cap1{
+         text-align:center;
+         position: relative;
+         top: 7px;
+         color: white;
+         font-family: 'Iranian Sans';
+     }
+     .body-cap1{
+         background-color: #e51c23;
+         padding: 1px;
+         z-index: 10;
+         position: relative;
+         top: -17%
+     }
+
+     .img-card1{
+         /*margin-top:-70px;*/
+         width: 1363px;
+     }
+     .back-img{
+         background: url("../img/مثلث-0۱.png");
+
+     }
+     .title-footer{
+         text-align: right;
+         direction: rtl;
+font-weight: bold;
+         margin-bottom: 20px;
+     }
